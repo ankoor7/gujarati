@@ -1,0 +1,6510 @@
+{
+  "__type__": "Deck",
+  "children": [],
+  "crowdanki_uuid": "e1a1eab3-6aec-4511-a2b9-7892ac4438c0",
+  "deck_config_uuid": "e1a1eab3-6aec-4511-a2b9-7892ac4438c0",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "autoplay": true,
+      "crowdanki_uuid": "e1a1eab3-6aec-4511-a2b9-7892ac4438c0",
+      "dyn": false,
+      "lapse": {
+        "delays": [
+          10
+        ],
+        "leechAction": 0,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0
+      },
+      "maxTaken": 60,
+      "name": "Default",
+      "new": {
+        "bury": true,
+        "delays": [
+          1,
+          10
+        ],
+        "initialFactor": 2500,
+        "ints": [
+          1,
+          4,
+          7
+        ],
+        "order": 0,
+        "perDay": 10,
+        "separate": true
+      },
+      "replayq": true,
+      "rev": {
+        "bury": true,
+        "ease4": 1.3,
+        "fuzz": 0.05,
+        "ivlFct": 1,
+        "maxIvl": 36500,
+        "minSpace": 1,
+        "perDay": 100
+      },
+      "timer": 0
+    }
+  ],
+  "desc": "",
+  "dyn": 0,
+  "extendNew": 10,
+  "extendRev": 50,
+  "media_files": [],
+  "mid": 1366716141610,
+  "name": "gujarati consonants-vowel combinations",
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "css": "\n  div {\n    margin: 15px;\n  }\n  .card {\n    font-family: arial;\n    font-size: 25px;\n    text-align: center;\n    color: black;\n    background-color: white;\n  }\n  .front {\n    font-family: Rasa;\n    font-size: 55px;\n  }\n  .sound {\n    color: blue;\n  }\n  .examples {\n    color: grey;\n  }",
+      "flds": [
+        {
+          "font": "Rasa",
+          "media": [],
+          "name": "Front",
+          "ord": 0,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Sound",
+          "ord": 1,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Examples",
+          "ord": 2,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Structure",
+          "ord": 3,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Picture",
+          "ord": 4,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Audio recording",
+          "ord": 5,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        }
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "latexsvg": false,
+      "name": "Letter, sound, example",
+      "req": [
+        [
+          0,
+          "any",
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          "any",
+          [
+            1,
+            5
+          ]
+        ]
+      ],
+      "sortf": 0,
+      "tags": [],
+      "tmpls": [
+        {
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n<div class=picture>{{Picture}}</div>\n<div class=sound>{{Sound}}</div>\n<div class=examples>{{Examples}}</div>\n<div class=structure>{{Structure}}</div>\n<div class=sound>{{Audio recording}}</div>",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Card 1",
+          "ord": 0,
+          "qfmt": "<div class=front>{{Front}}</div>\n"
+        },
+        {
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=front>{{Front}}</div>\n<div class=examples>{{Examples}}</div>\n<div class=structure>{{Structure}}</div>",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Card 2",
+          "ord": 1,
+          "qfmt": "What letter is this?\n\n<div class=sound>{{Sound}}</div>\n\n<div class=sound>{{Audio recording}}</div>"
+        }
+      ],
+      "type": 0,
+      "vers": []
+    }
+  ],
+  "notes": [
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કા",
+        "kã",
+        "",
+        "",
+        "",
+        "[sound:audio-કા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e542b2fe-87",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કિ",
+        "ki",
+        "",
+        "",
+        "",
+        "[sound:audio-કિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c82db1c0-b1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કી",
+        "kĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-કી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6f38abd0-16",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કુ",
+        "ku",
+        "",
+        "",
+        "",
+        "[sound:audio-કુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0602902d-90",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કૂ",
+        "kū",
+        "",
+        "",
+        "",
+        "[sound:audio-કૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "45a90728-86",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કે",
+        "ke",
+        "",
+        "",
+        "",
+        "[sound:audio-કે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8753a485-dd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કૈ",
+        "kai",
+        "",
+        "",
+        "",
+        "[sound:audio-કૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ff4e67be-02",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કો",
+        "ko",
+        "",
+        "",
+        "",
+        "[sound:audio-કો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "110ccb95-b2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કૌ",
+        "kau",
+        "",
+        "",
+        "",
+        "[sound:audio-કૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f1ff7b3a-40",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કં",
+        "k + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-કં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f523598f-c8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "કઃ",
+        "k + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-કઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e542840f-47",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખા",
+        "khã",
+        "",
+        "",
+        "",
+        "[sound:audio-ખા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "69a46d30-fb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખિ",
+        "khi",
+        "",
+        "",
+        "",
+        "[sound:audio-ખિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e021bc13-9b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખી",
+        "khĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ખી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "dd799585-84",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખુ",
+        "khu",
+        "",
+        "",
+        "",
+        "[sound:audio-ખુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "74a623e1-da",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખૂ",
+        "khū",
+        "",
+        "",
+        "",
+        "[sound:audio-ખૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c9bf6672-82",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખે",
+        "khe",
+        "",
+        "",
+        "",
+        "[sound:audio-ખે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6717d4af-6f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખૈ",
+        "khai",
+        "",
+        "",
+        "",
+        "[sound:audio-ખૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "dcada165-b1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખો",
+        "kho",
+        "",
+        "",
+        "",
+        "[sound:audio-ખો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ddb05fca-04",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખૌ",
+        "khau",
+        "",
+        "",
+        "",
+        "[sound:audio-ખૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f7669f79-f5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખં",
+        "kh + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ખં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "dc970776-3f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખઃ",
+        "kh + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ખઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "03d43d24-71",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગા",
+        "gã",
+        "",
+        "",
+        "",
+        "[sound:audio-ગા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "5131d1f4-44",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગિ",
+        "gi",
+        "",
+        "",
+        "",
+        "[sound:audio-ગિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f14b5e15-53",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગી",
+        "gĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ગી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9cefadb8-a4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગુ",
+        "gu",
+        "",
+        "",
+        "",
+        "[sound:audio-ગુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "adcccb89-84",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગૂ",
+        "gū",
+        "",
+        "",
+        "",
+        "[sound:audio-ગૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "715d4ac4-ad",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગે",
+        "ge",
+        "",
+        "",
+        "",
+        "[sound:audio-ગે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "af7da346-1a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગૈ",
+        "gai",
+        "",
+        "",
+        "",
+        "[sound:audio-ગૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e0d9cd05-f8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગો",
+        "go",
+        "",
+        "",
+        "",
+        "[sound:audio-ગો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7707769a-69",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગૌ",
+        "gau",
+        "",
+        "",
+        "",
+        "[sound:audio-ગૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "5345c6f1-a5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગં",
+        "g + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ગં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "fcbec8b5-7e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગઃ",
+        "g + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ગઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "fed31da0-f7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘા",
+        "ghã",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "cc809534-52",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘિ",
+        "ghi",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "fe3d18a3-f7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘી",
+        "ghĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "329b3d86-9e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘુ",
+        "ghu",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f0790341-40",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘૂ",
+        "ghū",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b50ca82c-e2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘે",
+        "ghe",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a9fdbc1c-a0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘૈ",
+        "ghai",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e64b2139-5c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘો",
+        "gho",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "54ff8cca-ba",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘૌ",
+        "ghau",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b9b5d1c5-44",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘં",
+        "gh + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "19dfa626-18",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘઃ",
+        "gh + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ઘઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "696892d7-48",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચા",
+        "cã",
+        "",
+        "",
+        "",
+        "[sound:audio-ચા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3d079d9f-83",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચિ",
+        "ci",
+        "",
+        "",
+        "",
+        "[sound:audio-ચિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7169c93e-7c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચી",
+        "cĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ચી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "db510197-93",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચુ",
+        "cu",
+        "",
+        "",
+        "",
+        "[sound:audio-ચુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9974a931-07",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચૂ",
+        "cū",
+        "",
+        "",
+        "",
+        "[sound:audio-ચૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "5ea08d16-42",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચે",
+        "ce",
+        "",
+        "",
+        "",
+        "[sound:audio-ચે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4bd00f4b-be",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચૈ",
+        "cai",
+        "",
+        "",
+        "",
+        "[sound:audio-ચૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "1a868b08-51",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચો",
+        "co",
+        "",
+        "",
+        "",
+        "[sound:audio-ચો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "83a7ac69-af",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચૌ",
+        "cau",
+        "",
+        "",
+        "",
+        "[sound:audio-ચૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "19623429-49",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચં",
+        "c + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ચં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3124fc56-63",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચઃ",
+        "c + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ચઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a80b96e9-03",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છા",
+        "chã",
+        "",
+        "",
+        "",
+        "[sound:audio-છા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0b6d4797-33",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છિ",
+        "chi",
+        "",
+        "",
+        "",
+        "[sound:audio-છિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4d0ca5cc-92",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છી",
+        "chĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-છી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c59aba01-43",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છુ",
+        "chu",
+        "",
+        "",
+        "",
+        "[sound:audio-છુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "01b36edc-60",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છૂ",
+        "chū",
+        "",
+        "",
+        "",
+        "[sound:audio-છૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a4b9ceb1-f7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છે",
+        "che",
+        "",
+        "",
+        "",
+        "[sound:audio-છે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7afad4fe-7b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છૈ",
+        "chai",
+        "",
+        "",
+        "",
+        "[sound:audio-છૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e8dd8e13-a0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છો",
+        "cho",
+        "",
+        "",
+        "",
+        "[sound:audio-છો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "231d15af-ff",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છૌ",
+        "chau",
+        "",
+        "",
+        "",
+        "[sound:audio-છૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "bcf50541-10",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છં",
+        "ch + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-છં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9e093e06-37",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છઃ",
+        "ch + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-છઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "50749045-7f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જા",
+        "jã",
+        "",
+        "",
+        "",
+        "[sound:audio-જા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e5eee9af-85",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જિ",
+        "ji",
+        "",
+        "",
+        "",
+        "[sound:audio-જિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "776718ae-2c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જી",
+        "jĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-જી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "03e347be-15",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જુ",
+        "ju",
+        "",
+        "",
+        "",
+        "[sound:audio-જુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8ec5590d-08",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જૂ",
+        "jū",
+        "",
+        "",
+        "",
+        "[sound:audio-જૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "850dcf93-ba",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જે",
+        "je",
+        "",
+        "",
+        "",
+        "[sound:audio-જે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a8410103-df",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જૈ",
+        "jai",
+        "",
+        "",
+        "",
+        "[sound:audio-જૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8842d6f6-54",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જો",
+        "jo",
+        "",
+        "",
+        "",
+        "[sound:audio-જો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "69374ab8-bb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જૌ",
+        "jau",
+        "",
+        "",
+        "",
+        "[sound:audio-જૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d424e947-76",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જં",
+        "j + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-જં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "232ad25f-cb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જઃ",
+        "j + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-જઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2ff25b89-e2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝા",
+        "jhã",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "39c267ce-e2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝિ",
+        "jhi",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ae875f13-97",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝી",
+        "jhĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "952ac0ea-89",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝુ",
+        "jhu",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "efc74bb5-54",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝૂ",
+        "jhū",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "55f85ad3-e7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝે",
+        "jhe",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8f736bfa-2a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝૈ",
+        "jhai",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d6b3b13c-19",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝો",
+        "jho",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8ead1a4d-42",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝૌ",
+        "jhau",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "890efd2b-7f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝં",
+        "jh + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "462508dd-1e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝઃ",
+        "jh + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ઝઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b1a32235-a6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટા",
+        "tã",
+        "",
+        "",
+        "",
+        "[sound:audio-ટા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "206450ca-d8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટિ",
+        "ti",
+        "",
+        "",
+        "",
+        "[sound:audio-ટિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "da941b9f-49",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટી",
+        "tĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ટી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "89e49d2c-07",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટુ",
+        "tu",
+        "",
+        "",
+        "",
+        "[sound:audio-ટુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "97d92c28-6c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટૂ",
+        "tū",
+        "",
+        "",
+        "",
+        "[sound:audio-ટૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3ca0f8ed-80",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટે",
+        "te",
+        "",
+        "",
+        "",
+        "[sound:audio-ટે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "113cb662-02",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટૈ",
+        "tai",
+        "",
+        "",
+        "",
+        "[sound:audio-ટૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "21aa9578-03",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટો",
+        "to",
+        "",
+        "",
+        "",
+        "[sound:audio-ટો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "97dec343-c4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટૌ",
+        "tau",
+        "",
+        "",
+        "",
+        "[sound:audio-ટૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "91cb577c-72",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટં",
+        "t + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ટં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "02b68e4e-f8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠા",
+        "thã",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8867f5b9-f0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠિ",
+        "thi",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "74a9c755-41",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠી",
+        "thĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "cc1069c2-75",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠુ",
+        "thu",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8d347e20-12",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠૂ",
+        "thū",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9573ca13-cd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠે",
+        "the",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8d1dee1b-33",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠૈ",
+        "thai",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "076d4c03-3a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠો",
+        "tho",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a41f6116-c6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠૌ",
+        "thau",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "64e6e599-71",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠં",
+        "th + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "60ffb81a-56",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠઃ",
+        "th + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ઠઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ff874a25-fa",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડા",
+        "dã",
+        "",
+        "",
+        "",
+        "[sound:audio-ડા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9d2c6c41-50",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડિ",
+        "di",
+        "",
+        "",
+        "",
+        "[sound:audio-ડિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e060dd07-c4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડી",
+        "dĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ડી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "742cd77f-18",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડુ",
+        "du",
+        "",
+        "",
+        "",
+        "[sound:audio-ડુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4c16cbb2-33",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડૂ",
+        "dū",
+        "",
+        "",
+        "",
+        "[sound:audio-ડૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6072eeb9-9e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડે",
+        "de",
+        "",
+        "",
+        "",
+        "[sound:audio-ડે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ee038b68-7e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડૈ",
+        "dai",
+        "",
+        "",
+        "",
+        "[sound:audio-ડૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3c5b131a-40",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડો",
+        "do",
+        "",
+        "",
+        "",
+        "[sound:audio-ડો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "379eccfe-56",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડૌ",
+        "dau",
+        "",
+        "",
+        "",
+        "[sound:audio-ડૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "07f5ecf1-dc",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડં",
+        "d + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ડં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3a387d6a-02",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડઃ",
+        "d + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ડઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a06b7c70-17",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢા",
+        "dhã",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d83caaf6-45",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢિ",
+        "dhi",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e204dadc-47",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢી",
+        "dhĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6e128113-bb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢુ",
+        "dhu",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c8057ece-25",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢૂ",
+        "dhū",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2ea53ea9-42",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢે",
+        "dhe",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b48aa2e0-f6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢૈ",
+        "dhai",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "42fd0501-f6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢો",
+        "dho",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "5685648f-67",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢૌ",
+        "dhau",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3c7a634f-9d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢં",
+        "dh + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "962bc8d5-09",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢઃ",
+        "dh + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ઢઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "572745c1-82",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તા",
+        "tã",
+        "",
+        "",
+        "",
+        "[sound:audio-તા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "56f3e766-ab",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તિ",
+        "ti",
+        "",
+        "",
+        "",
+        "[sound:audio-તિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "61e12f4f-8e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તી",
+        "tĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-તી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0c2e0917-62",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તુ",
+        "tu",
+        "",
+        "",
+        "",
+        "[sound:audio-તુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e5b95618-88",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તૂ",
+        "tū",
+        "",
+        "",
+        "",
+        "[sound:audio-તૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0d9c57d9-28",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તે",
+        "te",
+        "",
+        "",
+        "",
+        "[sound:audio-તે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "619f62ab-96",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તૈ",
+        "tai",
+        "",
+        "",
+        "",
+        "[sound:audio-તૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "11e23503-9b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તો",
+        "to",
+        "",
+        "",
+        "",
+        "[sound:audio-તો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6733a96d-50",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તૌ",
+        "tau",
+        "",
+        "",
+        "",
+        "[sound:audio-તૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7af3d447-12",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તં",
+        "t + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-તં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e1a7dd67-c7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "તઃ",
+        "t + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-તઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "33223463-0f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થા",
+        "thã",
+        "",
+        "",
+        "",
+        "[sound:audio-થા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "aa772200-d4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થિ",
+        "thi",
+        "",
+        "",
+        "",
+        "[sound:audio-થિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8b217ad4-03",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થી",
+        "thĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-થી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "32ab6c61-f6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થુ",
+        "thu",
+        "",
+        "",
+        "",
+        "[sound:audio-થુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "5aa3c89b-ca",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થૂ",
+        "thū",
+        "",
+        "",
+        "",
+        "[sound:audio-થૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "efa57d44-2a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થે",
+        "the",
+        "",
+        "",
+        "",
+        "[sound:audio-થે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0a4409df-0f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થૈ",
+        "thai",
+        "",
+        "",
+        "",
+        "[sound:audio-થૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "328006f4-f5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થો",
+        "tho",
+        "",
+        "",
+        "",
+        "[sound:audio-થો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8deae94d-85",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થૌ",
+        "thau",
+        "",
+        "",
+        "",
+        "[sound:audio-થૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7f98c17b-fc",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થં",
+        "th + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-થં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "41ba2372-01",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થઃ",
+        "th + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-થઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "bf08df08-04",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દા",
+        "dã",
+        "",
+        "",
+        "",
+        "[sound:audio-દા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "50c314d6-e3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દિ",
+        "di",
+        "",
+        "",
+        "",
+        "[sound:audio-દિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6174efb6-84",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દી",
+        "dĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-દી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "946123c6-96",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દુ",
+        "du",
+        "",
+        "",
+        "",
+        "[sound:audio-દુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e74957eb-e9",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દૂ",
+        "dū",
+        "",
+        "",
+        "",
+        "[sound:audio-દૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0f424e8c-cf",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દે",
+        "de",
+        "",
+        "",
+        "",
+        "[sound:audio-દે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d23a7c27-6d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દૈ",
+        "dai",
+        "",
+        "",
+        "",
+        "[sound:audio-દૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b868865f-8a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દો",
+        "do",
+        "",
+        "",
+        "",
+        "[sound:audio-દો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a8e9675e-91",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દૌ",
+        "dau",
+        "",
+        "",
+        "",
+        "[sound:audio-દૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b800b568-70",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દં",
+        "d + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-દં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e8645743-f6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દઃ",
+        "d + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-દઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "26cdf29a-9a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધા",
+        "dhã",
+        "",
+        "",
+        "",
+        "[sound:audio-ધા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "fa8c257c-8e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધિ",
+        "dhi",
+        "",
+        "",
+        "",
+        "[sound:audio-ધિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "cae75247-a4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધી",
+        "dhĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ધી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a9cb004b-b2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધુ",
+        "dhu",
+        "",
+        "",
+        "",
+        "[sound:audio-ધુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "720a3d33-dd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધૂ",
+        "dhū",
+        "",
+        "",
+        "",
+        "[sound:audio-ધૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7c61d1c8-9f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધે",
+        "dhe",
+        "",
+        "",
+        "",
+        "[sound:audio-ધે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4f0b0601-b1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધૈ",
+        "dhai",
+        "",
+        "",
+        "",
+        "[sound:audio-ધૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7a6b5086-cf",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધો",
+        "dho",
+        "",
+        "",
+        "",
+        "[sound:audio-ધો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3d625a94-8c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધૌ",
+        "dhau",
+        "",
+        "",
+        "",
+        "[sound:audio-ધૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "83b58e4d-5e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધં",
+        "dh + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ધં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "00b199fe-ef",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધઃ",
+        "dh + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ધઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "21cf0a83-bb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પા",
+        "pã",
+        "",
+        "",
+        "",
+        "[sound:audio-પા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "dc3b18e5-f9",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પિ",
+        "pi",
+        "",
+        "",
+        "",
+        "[sound:audio-પિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9dcceb80-9b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પી",
+        "pĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-પી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4b39472c-a8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પુ",
+        "pu",
+        "",
+        "",
+        "",
+        "[sound:audio-પુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "30cb76c5-88",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પૂ",
+        "pū",
+        "",
+        "",
+        "",
+        "[sound:audio-પૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "28ab53a7-21",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પે",
+        "pe",
+        "",
+        "",
+        "",
+        "[sound:audio-પે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c393b526-dd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પૈ",
+        "pai",
+        "",
+        "",
+        "",
+        "[sound:audio-પૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8865af07-69",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પો",
+        "po",
+        "",
+        "",
+        "",
+        "[sound:audio-પો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "caa62173-c7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પૌ",
+        "pau",
+        "",
+        "",
+        "",
+        "[sound:audio-પૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "882044ea-35",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પં",
+        "p + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-પં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "fd8685ff-fb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પઃ",
+        "p + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-પઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6e62df0a-f3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફા",
+        "phã",
+        "",
+        "",
+        "",
+        "[sound:audio-ફા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a8c5bd0d-9b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફિ",
+        "phi",
+        "",
+        "",
+        "",
+        "[sound:audio-ફિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2fbd3895-8e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફી",
+        "phĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ફી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "49c502df-2d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફુ",
+        "phu",
+        "",
+        "",
+        "",
+        "[sound:audio-ફુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e4d74cc2-b2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફૂ",
+        "phū",
+        "",
+        "",
+        "",
+        "[sound:audio-ફૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ff839936-a3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફે",
+        "phe",
+        "",
+        "",
+        "",
+        "[sound:audio-ફે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "05e73daa-f3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફૈ",
+        "phai",
+        "",
+        "",
+        "",
+        "[sound:audio-ફૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b6199bc9-03",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફો",
+        "pho",
+        "",
+        "",
+        "",
+        "[sound:audio-ફો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0511d205-1f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફૌ",
+        "phau",
+        "",
+        "",
+        "",
+        "[sound:audio-ફૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "981969c6-37",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફં",
+        "ph + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ફં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "decb5341-c2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફઃ",
+        "ph + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ફઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6f0638b8-ae",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બા",
+        "bã",
+        "",
+        "",
+        "",
+        "[sound:audio-બા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "75aa442b-d4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બિ",
+        "bi",
+        "",
+        "",
+        "",
+        "[sound:audio-બિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4f96e1d9-40",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બી",
+        "bĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-બી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e3a6b706-64",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બુ",
+        "bu",
+        "",
+        "",
+        "",
+        "[sound:audio-બુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c09babbe-3f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બૂ",
+        "bū",
+        "",
+        "",
+        "",
+        "[sound:audio-બૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "09f3629f-17",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બે",
+        "be",
+        "",
+        "",
+        "",
+        "[sound:audio-બે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3543d0f3-f1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બૈ",
+        "bai",
+        "",
+        "",
+        "",
+        "[sound:audio-બૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9a483f87-a1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બો",
+        "bo",
+        "",
+        "",
+        "",
+        "[sound:audio-બો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6e679c88-aa",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બૌ",
+        "bau",
+        "",
+        "",
+        "",
+        "[sound:audio-બૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2d5c9f5d-e7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બં",
+        "b + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-બં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "412d514d-14",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બઃ",
+        "b + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-બઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3f7fa996-54",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભા",
+        "bhã",
+        "",
+        "",
+        "",
+        "[sound:audio-ભા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a3aa4cdb-c3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભિ",
+        "bhi",
+        "",
+        "",
+        "",
+        "[sound:audio-ભિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "16b5001f-fc",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભી",
+        "bhĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ભી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9f5f6662-4d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભુ",
+        "bhu",
+        "",
+        "",
+        "",
+        "[sound:audio-ભુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9abd45bc-0e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભૂ",
+        "bhū",
+        "",
+        "",
+        "",
+        "[sound:audio-ભૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "aa66fc92-af",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભે",
+        "bhe",
+        "",
+        "",
+        "",
+        "[sound:audio-ભે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "079305b4-fd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભૈ",
+        "bhai",
+        "",
+        "",
+        "",
+        "[sound:audio-ભૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2c139125-34",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભો",
+        "bho",
+        "",
+        "",
+        "",
+        "[sound:audio-ભો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9f05fc3d-b5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભૌ",
+        "bhau",
+        "",
+        "",
+        "",
+        "[sound:audio-ભૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "925cef79-be",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભં",
+        "bh + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ભં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2a82e428-7a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભઃ",
+        "bh + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ભઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e81833b2-29",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણા",
+        "ṇã",
+        "",
+        "",
+        "",
+        "[sound:audio-ણા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3e9e141d-3f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણિ",
+        "ṇi",
+        "",
+        "",
+        "",
+        "[sound:audio-ણિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "55c2c3fa-99",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણી",
+        "ṇĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ણી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "99696362-d0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણુ",
+        "ṇu",
+        "",
+        "",
+        "",
+        "[sound:audio-ણુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4cf0f828-e1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણૂ",
+        "ṇū",
+        "",
+        "",
+        "",
+        "[sound:audio-ણૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "1424b153-b3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણે",
+        "ṇe",
+        "",
+        "",
+        "",
+        "[sound:audio-ણે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7f78c540-70",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણૈ",
+        "ṇai",
+        "",
+        "",
+        "",
+        "[sound:audio-ણૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ef00e397-8f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણો",
+        "ṇo",
+        "",
+        "",
+        "",
+        "[sound:audio-ણો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4fe707c0-36",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણૌ",
+        "ṇau",
+        "",
+        "",
+        "",
+        "[sound:audio-ણૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "16e6abca-fa",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણં",
+        "ṇ + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ણં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "01abd864-c3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણઃ",
+        "ṇ + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ણઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0691367b-27",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ના",
+        "nã",
+        "",
+        "",
+        "",
+        "[sound:audio-ના.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c66787c6-e0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નિ",
+        "ni",
+        "",
+        "",
+        "",
+        "[sound:audio-નિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6dae898b-92",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ની",
+        "nĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ની.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ba1aff89-0a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નુ",
+        "nu",
+        "",
+        "",
+        "",
+        "[sound:audio-નુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "39b9797a-44",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નૂ",
+        "nū",
+        "",
+        "",
+        "",
+        "[sound:audio-નૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e926621d-f9",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ને",
+        "ne",
+        "",
+        "",
+        "",
+        "[sound:audio-ને.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0780434a-15",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નૈ",
+        "nai",
+        "",
+        "",
+        "",
+        "[sound:audio-નૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "07d913e3-cf",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નો",
+        "no",
+        "",
+        "",
+        "",
+        "[sound:audio-નો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "729da4c4-6e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નૌ",
+        "nau",
+        "",
+        "",
+        "",
+        "[sound:audio-નૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "70bec9fb-c0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નં",
+        "n + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-નં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "963362b7-61",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "નઃ",
+        "n + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-નઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "60a109b0-fc",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મા",
+        "mã",
+        "",
+        "",
+        "",
+        "[sound:audio-મા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a7a121e7-91",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મિ",
+        "mi",
+        "",
+        "",
+        "",
+        "[sound:audio-મિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "dc5d410d-7e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મી",
+        "mĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-મી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f1e96ebf-74",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મુ",
+        "mu",
+        "",
+        "",
+        "",
+        "[sound:audio-મુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3ef90aa3-66",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મૂ",
+        "mū",
+        "",
+        "",
+        "",
+        "[sound:audio-મૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f00ec258-3b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મે",
+        "me",
+        "",
+        "",
+        "",
+        "[sound:audio-મે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2ce82abb-23",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મૈ",
+        "mai",
+        "",
+        "",
+        "",
+        "[sound:audio-મૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "25bebf4d-15",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મો",
+        "mo",
+        "",
+        "",
+        "",
+        "[sound:audio-મો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d638bd61-1e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મૌ",
+        "mau",
+        "",
+        "",
+        "",
+        "[sound:audio-મૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "070891cc-84",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મં",
+        "m + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-મં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "07702626-1e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મઃ",
+        "m + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-મઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9a706c28-4a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શા",
+        "śã",
+        "",
+        "",
+        "",
+        "[sound:audio-શા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "98d69c3d-77",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શિ",
+        "śi",
+        "",
+        "",
+        "",
+        "[sound:audio-શિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "aa951926-2d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શી",
+        "śĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-શી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "59c14806-e8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શુ",
+        "śu",
+        "",
+        "",
+        "",
+        "[sound:audio-શુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a7e3d9a0-48",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શૂ",
+        "śū",
+        "",
+        "",
+        "",
+        "[sound:audio-શૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8c6a32dd-39",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શે",
+        "śe",
+        "",
+        "",
+        "",
+        "[sound:audio-શે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "11e91602-20",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શૈ",
+        "śai",
+        "",
+        "",
+        "",
+        "[sound:audio-શૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "75403605-4f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શો",
+        "śo",
+        "",
+        "",
+        "",
+        "[sound:audio-શો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "5981a1b5-34",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શૌ",
+        "śau",
+        "",
+        "",
+        "",
+        "[sound:audio-શૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a1fb10a0-fd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શં",
+        "ś + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-શં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "51a39b3d-25",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શઃ",
+        "ś + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-શઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7bb38b0a-d7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષા",
+        "ṣã",
+        "",
+        "",
+        "",
+        "[sound:audio-ષા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c72118cd-20",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષિ",
+        "ṣi",
+        "",
+        "",
+        "",
+        "[sound:audio-ષિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "02907e09-e3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષી",
+        "ṣĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ષી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "1c5ec615-1b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષુ",
+        "ṣu",
+        "",
+        "",
+        "",
+        "[sound:audio-ષુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "dee5fe1c-e2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષૂ",
+        "ṣū",
+        "",
+        "",
+        "",
+        "[sound:audio-ષૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "24e46e9e-ad",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષે",
+        "ṣe",
+        "",
+        "",
+        "",
+        "[sound:audio-ષે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b6df194a-ce",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષૈ",
+        "ṣai",
+        "",
+        "",
+        "",
+        "[sound:audio-ષૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f8d2ca89-cb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષો",
+        "ṣo",
+        "",
+        "",
+        "",
+        "[sound:audio-ષો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3f78157a-06",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષૌ",
+        "ṣau",
+        "",
+        "",
+        "",
+        "[sound:audio-ષૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "fa752947-6a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષં",
+        "ṣ + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ષં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a6654748-47",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષઃ",
+        "ṣ + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ષઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ca40eb7d-37",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સા",
+        "sã",
+        "",
+        "",
+        "",
+        "[sound:audio-સા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d4e28689-94",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સિ",
+        "si",
+        "",
+        "",
+        "",
+        "[sound:audio-સિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "25abf61c-b3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સી",
+        "sĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-સી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b37c597f-f8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સુ",
+        "su",
+        "",
+        "",
+        "",
+        "[sound:audio-સુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a0ea94c2-7d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સૂ",
+        "sū",
+        "",
+        "",
+        "",
+        "[sound:audio-સૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "16c65f3a-d2",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સે",
+        "se",
+        "",
+        "",
+        "",
+        "[sound:audio-સે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c8996fec-4b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સૈ",
+        "sai",
+        "",
+        "",
+        "",
+        "[sound:audio-સૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ad086db0-93",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સો",
+        "so",
+        "",
+        "",
+        "",
+        "[sound:audio-સો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0873daad-44",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સૌ",
+        "sau",
+        "",
+        "",
+        "",
+        "[sound:audio-સૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "28205c66-7c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સં",
+        "s + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-સં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c498f662-fd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સઃ",
+        "s + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-સઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d51e394e-c0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રા",
+        "rã",
+        "",
+        "",
+        "",
+        "[sound:audio-રા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b71d6fda-0a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રિ",
+        "ri",
+        "",
+        "",
+        "",
+        "[sound:audio-રિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0dfe660e-90",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રી",
+        "rĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-રી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a5ec7e56-38",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રુ",
+        "ru",
+        "",
+        "",
+        "",
+        "[sound:audio-રુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a160e731-16",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રૂ",
+        "rū",
+        "",
+        "",
+        "",
+        "[sound:audio-રૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "bb6f455d-9d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રે",
+        "re",
+        "",
+        "",
+        "",
+        "[sound:audio-રે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e50f944a-c5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રૈ",
+        "rai",
+        "",
+        "",
+        "",
+        "[sound:audio-રૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "753728cd-29",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રો",
+        "ro",
+        "",
+        "",
+        "",
+        "[sound:audio-રો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2beb2c14-b9",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રૌ",
+        "rau",
+        "",
+        "",
+        "",
+        "[sound:audio-રૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "86b2b37d-e9",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રં",
+        "r + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-રં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "0534770c-7c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "રઃ",
+        "r + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-રઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7903d206-03",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લા",
+        "lã",
+        "",
+        "",
+        "",
+        "[sound:audio-લા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e41e80b8-8e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લિ",
+        "li",
+        "",
+        "",
+        "",
+        "[sound:audio-લિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d05353aa-af",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લી",
+        "lĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-લી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "718ea614-34",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લુ",
+        "lu",
+        "",
+        "",
+        "",
+        "[sound:audio-લુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "5db8eb65-7b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લૂ",
+        "lū",
+        "",
+        "",
+        "",
+        "[sound:audio-લૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b578f1fa-f4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લે",
+        "le",
+        "",
+        "",
+        "",
+        "[sound:audio-લે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b60d188f-38",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લૈ",
+        "lai",
+        "",
+        "",
+        "",
+        "[sound:audio-લૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8bff4d00-b8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લો",
+        "lo",
+        "",
+        "",
+        "",
+        "[sound:audio-લો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "cbb7c421-06",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લૌ",
+        "lau",
+        "",
+        "",
+        "",
+        "[sound:audio-લૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e840e02d-2e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લં",
+        "l + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-લં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7b5bb721-00",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લઃ",
+        "l + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-લઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4140d1d3-3b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળા",
+        "ḷã",
+        "",
+        "",
+        "",
+        "[sound:audio-ળા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "8e5bae58-9a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળિ",
+        "ḷi",
+        "",
+        "",
+        "",
+        "[sound:audio-ળિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "72746e9d-7e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળી",
+        "ḷĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ળી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c35ad1ba-c4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળુ",
+        "ḷu",
+        "",
+        "",
+        "",
+        "[sound:audio-ળુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "774df89e-00",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળૂ",
+        "ḷū",
+        "",
+        "",
+        "",
+        "[sound:audio-ળૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e75fc02f-54",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળે",
+        "ḷe",
+        "",
+        "",
+        "",
+        "[sound:audio-ળે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "3bcb3e71-77",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળૈ",
+        "ḷai",
+        "",
+        "",
+        "",
+        "[sound:audio-ળૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e81fc62f-76",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળો",
+        "ḷo",
+        "",
+        "",
+        "",
+        "[sound:audio-ળો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f7e4bd6d-99",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળૌ",
+        "ḷau",
+        "",
+        "",
+        "",
+        "[sound:audio-ળૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4243b5df-2f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળં",
+        "ḷ + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ળં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7f29460a-2d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળઃ",
+        "ḷ + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ળઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "38f0a655-3e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યા",
+        "yã",
+        "",
+        "",
+        "",
+        "[sound:audio-યા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e2c4bc9e-69",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યિ",
+        "yi",
+        "",
+        "",
+        "",
+        "[sound:audio-યિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "1164f412-52",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યી",
+        "yĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-યી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ffc2c63f-0f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યુ",
+        "yu",
+        "",
+        "",
+        "",
+        "[sound:audio-યુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "af588734-c7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યૂ",
+        "yū",
+        "",
+        "",
+        "",
+        "[sound:audio-યૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "cb6f991d-e3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યે",
+        "ye",
+        "",
+        "",
+        "",
+        "[sound:audio-યે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9d84a3f3-04",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યૈ",
+        "yai",
+        "",
+        "",
+        "",
+        "[sound:audio-યૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "08cc9c05-ec",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યો",
+        "yo",
+        "",
+        "",
+        "",
+        "[sound:audio-યો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c7c39885-87",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યૌ",
+        "yau",
+        "",
+        "",
+        "",
+        "[sound:audio-યૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a71fe5f8-2d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યં",
+        "y + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-યં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "4db1889c-65",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "યઃ",
+        "y + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-યઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2fcd87de-61",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વા",
+        "vã",
+        "",
+        "",
+        "",
+        "[sound:audio-વા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "041c4cd6-38",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વિ",
+        "vi",
+        "",
+        "",
+        "",
+        "[sound:audio-વિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "1889cc2b-3e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વી",
+        "vĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-વી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "001e0660-d5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વુ",
+        "vu",
+        "",
+        "",
+        "",
+        "[sound:audio-વુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "00d96763-e0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વૂ",
+        "vū",
+        "",
+        "",
+        "",
+        "[sound:audio-વૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "db082c12-6b",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વે",
+        "ve",
+        "",
+        "",
+        "",
+        "[sound:audio-વે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c2cb4f1f-a0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વૈ",
+        "vai",
+        "",
+        "",
+        "",
+        "[sound:audio-વૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c950e2b6-fe",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વો",
+        "vo",
+        "",
+        "",
+        "",
+        "[sound:audio-વો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a523323e-3a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વૌ",
+        "vau",
+        "",
+        "",
+        "",
+        "[sound:audio-વૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "a909cdaf-ea",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વં",
+        "v + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-વં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "88c6b71c-07",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વઃ",
+        "v + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-વઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "913b2aec-4d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હા",
+        "hã",
+        "",
+        "",
+        "",
+        "[sound:audio-હા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "ba796cd5-b1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હિ",
+        "hi",
+        "",
+        "",
+        "",
+        "[sound:audio-હિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "60e0006a-ac",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હી",
+        "hĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-હી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "33ff0f04-92",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હુ",
+        "hu",
+        "",
+        "",
+        "",
+        "[sound:audio-હુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "62d13c2c-b3",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હૂ",
+        "hū",
+        "",
+        "",
+        "",
+        "[sound:audio-હૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "81a2c725-90",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હે",
+        "he",
+        "",
+        "",
+        "",
+        "[sound:audio-હે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2f1ba1cd-02",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હૈ",
+        "hai",
+        "",
+        "",
+        "",
+        "[sound:audio-હૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9daa82ae-25",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હો",
+        "ho",
+        "",
+        "",
+        "",
+        "[sound:audio-હો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "92bb7586-cf",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હૌ",
+        "hau",
+        "",
+        "",
+        "",
+        "[sound:audio-હૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "7927162e-22",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હં",
+        "h + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-હં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b1cb6862-8f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હઃ",
+        "h + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-હઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "cde313ad-a6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષા",
+        "kṣã",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "9faff09b-f7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષિ",
+        "kṣi",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "eb5f84ea-4e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષી",
+        "kṣĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "46a1d664-a8",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષુ",
+        "kṣu",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "94f23d9c-f5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષૂ",
+        "kṣū",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "b9e6b77b-33",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષે",
+        "kṣe",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "6eb71f53-ea",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષૈ",
+        "kṣai",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "2aecaf83-d4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષો",
+        "kṣo",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "f5437e6d-3a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષૌ",
+        "kṣau",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "feee2e25-3c",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષં",
+        "kṣ + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "17dedbcc-d5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષઃ",
+        "kṣ + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-ક્ષઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "17864538-29",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞા",
+        "jñã",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞા.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "40ef3ac6-af",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞિ",
+        "jñi",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞિ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "dc535ec3-d1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞી",
+        "jñĩ",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞી.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "fc4d9715-2f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞુ",
+        "jñu",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞુ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "c739c0af-47",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞૂ",
+        "jñū",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞૂ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d084ab20-55",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞે",
+        "jñe",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞે.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "1d9d9616-b9",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞૈ",
+        "jñai",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞૈ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "794b9df6-d4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞો",
+        "jño",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞો.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "d3e4b4a0-83",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞૌ",
+        "jñau",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞૌ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "e9ae9ff6-69",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞં",
+        "jñ + nasalisation",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞં.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "99b840c5-ca",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞઃ",
+        "jñ + silent vowel",
+        "",
+        "",
+        "",
+        "[sound:audio-જ્ઞઃ.mp3]<br>"
+      ],
+      "flags": 0,
+      "guid": "945d3379-9d",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    }
+  ]
+}

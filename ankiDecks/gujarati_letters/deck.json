@@ -1,0 +1,486 @@
+{
+  "__type__": "Deck",
+  "children": [],
+  "crowdanki_uuid": "c75025a0-574d-11ea-a1b3-dca9047b7182",
+  "deck_config_uuid": "c750273a-574d-11ea-a1b3-dca9047b7182",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "autoplay": true,
+      "crowdanki_uuid": "c750273a-574d-11ea-a1b3-dca9047b7182",
+      "dyn": false,
+      "lapse": {
+        "delays": [10],
+        "leechAction": 0,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0
+      },
+      "maxTaken": 60,
+      "name": "Default",
+      "new": {
+        "bury": true,
+        "delays": [1, 10],
+        "initialFactor": 2500,
+        "ints": [1, 4, 7],
+        "order": 0,
+        "perDay": 10,
+        "separate": true
+      },
+      "replayq": true,
+      "rev": {
+        "bury": true,
+        "ease4": 1.3,
+        "fuzz": 0.05,
+        "ivlFct": 1,
+        "maxIvl": 36500,
+        "minSpace": 1,
+        "perDay": 100
+      },
+      "timer": 0
+    }
+  ],
+  "desc": "",
+  "dyn": 0,
+  "extendNew": 10,
+  "extendRev": 50,
+  "media_files": [],
+  "mid": 1366716141610,
+  "name": "gujarati letters",
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #FFFFFF; }\n.card2 { background-color: #FFFFFF; }",
+      "flds": [
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Word",
+          "ord": 0,
+          "rtl": false,
+          "size": 12,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "IPA",
+          "ord": 1,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Picture",
+          "ord": 2,
+          "rtl": false,
+          "size": 12,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Gender, Personal Connection, Extra Info (Back side)",
+          "ord": 3,
+          "rtl": false,
+          "size": 12,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Pronunciation (Recording and/or IPA)",
+          "ord": 4,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Test Spelling? (y = yes, blank = no)",
+          "ord": 5,
+          "rtl": false,
+          "size": 20,
+          "sticky": true
+        }
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "name": "2. Picture Words",
+      "req": [
+        [0, "any", [0]],
+        [1, "any", [2]],
+        [2, "all", [5]]
+      ],
+      "sortf": 0,
+      "tags": [],
+      "tmpls": [
+        {
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}<br><font color=blue>{{Pronunciation (Recording and/or IPA)}}</font>{{/Pronunciation (Recording and/or IPA)}}<br>\n\n\n<span style=\"color:grey\">{{Gender, Personal Connection, Extra Info (Back side)}}</span>\n<br><br>\n\n<div style='font-family: Arial; font-size: 20px;'>{{IPA}}</div>\n",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Comprehension Card",
+          "ord": 0,
+          "qfmt": "{{Word}}\n\n"
+        },
+        {
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span style=\"font-size:1.5em;\">{{Word}}</span><br>\n\n\n{{#Pronunciation (Recording and/or IPA)}}<br><font color=blue>{{Pronunciation (Recording and/or IPA)}}</font>{{/Pronunciation (Recording and/or IPA)}}\n\n{{#Gender, Personal Connection, Extra Info (Back side)}}<br><font color=grey>{{Gender, Personal Connection, Extra Info (Back side)}}</font>{{/Gender, Personal Connection, Extra Info (Back side)}}\n\n\n<span style=\"\">",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Production Card",
+          "ord": 1,
+          "qfmt": "{{Picture}}<br><br>\n\n<font color=red></font><br><br>\n<font color=red></font><br><br>\n"
+        },
+        {
+          "afmt": "<span style=\"font-size:1.5em;\">{{Word}}</span><br><br>\n\n\n{{Picture}}<br>\n\n<span style=\"color:grey;\">{{Gender, Personal Connection, Extra Info (Back side)}}</span>\n",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Spelling?",
+          "ord": 2,
+          "qfmt": "{{#Test Spelling? (y = yes, blank = no)}}\nSpell this word: <br><br>\n{{Picture}}<br>\n\n{{#Pronunciation (Recording and/or IPA)}}<br><font color=blue>{{Pronunciation (Recording and/or IPA)}}</font>{{/Pronunciation (Recording and/or IPA)}}\n<br>\n\n{{/Test Spelling? (y = yes, blank = no)}}\n\n\n"
+        }
+      ],
+      "type": 0,
+      "vers": []
+    }
+  ],
+  "notes": [
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ક", "", "", "Ka, scold, sky", "", ""],
+      "flags": 0,
+      "guid": "pmS5wB-9m*",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ખ", "", "", "Kha, cold, cot", "", ""],
+      "flags": 0,
+      "guid": "eHo|PdXq1}",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ગ", "", "", "Ga, go, gate", "", ""],
+      "flags": 0,
+      "guid": "f3:Gltga?.",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ઘ", "", "", "Gha,&nbsp;", "", ""],
+      "flags": 0,
+      "guid": "G3TW,{]nT#",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ચ", "", "", "Ca", "", ""],
+      "flags": 0,
+      "guid": "wbX(`^AR=q",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["છ", "", "", "Cha", "", ""],
+      "flags": 0,
+      "guid": "n52*pjzcWn",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["જ", "", "", "Ja", "", ""],
+      "flags": 0,
+      "guid": "zX#s:$iE%#",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ઝ", "", "", "Jha", "", ""],
+      "flags": 0,
+      "guid": "mXkC;ba&WA",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ટ", "", "", "Ta, retroflex, like in train", "", ""],
+      "flags": 0,
+      "guid": "EZXZro#dHH",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ઠ", "", "", "Tha, emphasised retroflex", "", ""],
+      "flags": 0,
+      "guid": "jy,Lxo<@r6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ડ", "", "", "Da, retroflex", "", ""],
+      "flags": 0,
+      "guid": "gD0QblUHOE",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ઢ", "", "", "Dha, emphasised retroflex", "", ""],
+      "flags": 0,
+      "guid": "H|!sX(wiib",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ત", "", "", "Ta, dental", "", ""],
+      "flags": 0,
+      "guid": "j^27r$pS#O",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["થ", "", "", "Tha, emphasised dental", "", ""],
+      "flags": 0,
+      "guid": "f>vP|AzYVg",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["દ", "", "", "Da, dental, as in breadth", "", ""],
+      "flags": 0,
+      "guid": "mT>@|!WP[5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ધ", "", "", "Dha, emphasised dental", "", ""],
+      "flags": 0,
+      "guid": "pOMx;DDXDP",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["પ", "", "", "Pa", "", ""],
+      "flags": 0,
+      "guid": "pi2$2o_guO",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ફ", "", "", "Pha, emphasised but often pronounced 'fa'", "", ""],
+      "flags": 0,
+      "guid": "DD-_?$f{op",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["બ", "", "", "Ba, as in 'be'", "", ""],
+      "flags": 0,
+      "guid": "ts+$R/MNEU",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ભ", "", "", "Bha, emphasised&nbsp;", "", ""],
+      "flags": 0,
+      "guid": "Mjg3`Z{s:L",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ઽ•", "", "", "Na, velar nasal, as in sing&nbsp;", "", ""],
+      "flags": 0,
+      "guid": "L,*$ef+kv0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ણ", "", "", "Na, retroflex nasal", "", ""],
+      "flags": 0,
+      "guid": "wo|yZRo?Ik",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ન", "", "", "Na", "", ""],
+      "flags": 0,
+      "guid": "Eon(LEN+9_",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["મ", "", "", "Ma, as in 'me'", "", ""],
+      "flags": 0,
+      "guid": "NsIFy$o0wI",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["શ", "", "", "Sha, dental", "", ""],
+      "flags": 0,
+      "guid": "ho0%zcs0e>",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ષ", "", "", "Sa, retroflex but usually pronounced as 'X'", "", ""],
+      "flags": 0,
+      "guid": "p9qS|#_*Ya",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["સ", "", "", "Sa, as in sit&nbsp;", "", ""],
+      "flags": 0,
+      "guid": "OO|+r65u|a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ર", "", "", "Ra, dental. A short roller 'r' sound", "", ""],
+      "flags": 0,
+      "guid": "ApRr_;MBs7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["લ", "", "", "La, as in 'leaf'", "", ""],
+      "flags": 0,
+      "guid": "GO6Z*<,4lf",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ળ", "", "", "La, retroflex lateral", "", ""],
+      "flags": 0,
+      "guid": "iuO9}lL|%%",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["ય", "", "", "Ya, semi-vowel. When before a vowel: as in 'yes'. When before a consonant: as in 'egg'", "", ""],
+      "flags": 0,
+      "guid": "dg4eit7fyk",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["વ", "", "", "Va", "", ""],
+      "flags": 0,
+      "guid": "DS)=>Y>$gH",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": ["હ", "", "", "Ha, as in 'ahead'", "", ""],
+      "flags": 0,
+      "guid": "dEKE5gX0qP",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    }
+  ]
+}

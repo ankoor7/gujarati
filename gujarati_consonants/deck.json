@@ -1,0 +1,733 @@
+{
+  "__type__": "Deck",
+  "children": [],
+  "crowdanki_uuid": "019e9a01-a323-4035-982f-3553e1b29b75",
+  "deck_config_uuid": "019e9a01-a323-4035-982f-3553e1b29b75",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "autoplay": true,
+      "crowdanki_uuid": "019e9a01-a323-4035-982f-3553e1b29b75",
+      "dyn": false,
+      "lapse": {
+        "delays": [
+          10
+        ],
+        "leechAction": 0,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0
+      },
+      "maxTaken": 60,
+      "name": "Default",
+      "new": {
+        "bury": true,
+        "delays": [
+          1,
+          10
+        ],
+        "initialFactor": 2500,
+        "ints": [
+          1,
+          4,
+          7
+        ],
+        "order": 0,
+        "perDay": 10,
+        "separate": true
+      },
+      "replayq": true,
+      "rev": {
+        "bury": true,
+        "ease4": 1.3,
+        "fuzz": 0.05,
+        "ivlFct": 1,
+        "maxIvl": 36500,
+        "minSpace": 1,
+        "perDay": 100
+      },
+      "timer": 0
+    }
+  ],
+  "desc": "",
+  "dyn": 0,
+  "extendNew": 10,
+  "extendRev": 50,
+  "media_files": [],
+  "mid": 1366716141610,
+  "name": "gujarati consonants",
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "css": "div {\n  margin: 15px;\n}\n.card {\n   font-family: arial;\n   font-size: 20px;\n   text-align: center;\n   color: black;\n   background-color: white;\n}\n.sound {\n   color: blue;\n}\n.examples {\n   color: grey;\n}\n",
+      "flds": [
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Front",
+          "ord": 0,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Sound",
+          "ord": 1,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Examples",
+          "ord": 2,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Structure",
+          "ord": 3,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [],
+          "name": "Picture",
+          "ord": 4,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        }
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "latexsvg": false,
+      "name": "Letter, sound, example",
+      "req": [
+        [
+          0,
+          "any",
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          "none",
+          []
+        ]
+      ],
+      "sortf": 0,
+      "tags": [],
+      "tmpls": [
+        {
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=picture>{{Picture}}</div>\n<div class=sound>{{Sound}}</div>\n<div class=examples>{{Examples}}</div>\n<div class=structure>{{Structure}}</div>",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Card 1",
+          "ord": 0,
+          "qfmt": "{{Front}}"
+        },
+        {
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Card 2",
+          "ord": 1,
+          "qfmt": ""
+        }
+      ],
+      "type": 0,
+      "vers": []
+    }
+  ],
+  "notes": [
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક",
+        "ka",
+        "scold, sky",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "e9549800-d7",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ખ",
+        "kha",
+        "cold, cot, emphasised version of ક",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "8a967b94-96",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ગ",
+        "ga",
+        "go, gate",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "af990c2e-d0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઘ",
+        "gha",
+        "egg",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "b4764b95-da",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ચ",
+        "ca",
+        "catch",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "36cd6705-a0",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "છ",
+        "cha",
+        "khaki",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "8816ab57-2f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ",
+        "ja",
+        "jack",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "3f8e0e29-4a",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઝ",
+        "jha",
+        "hedgehog emphasised version of જ",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "c938f695-31",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ટ",
+        "ta",
+        "court, train",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "94f5f423-e4",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઠ",
+        "tha",
+        "emphasised retroflex version of ટ",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "c7019eec-e1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ડ",
+        "da",
+        "somewhat like murder",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "f500e7ae-63",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઢ",
+        "dha",
+        "somewhat like guardhouse",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "9caee238-03",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ત",
+        "ta",
+        "stop, stay",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "ac0c29ba-a6",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "થ",
+        "tha",
+        "emphasised version of ત",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "e46ca803-eb",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "દ",
+        "da",
+        "dog, breadth",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "32f38047-d5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ધ",
+        "dha",
+        "adhere",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "67fba77e-c5",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "પ",
+        "pa",
+        "span, spade",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "cb38d458-ed",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ફ",
+        "pha",
+        "pan, or 'f', afraid",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "83c1ec5a-6e",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "બ",
+        "ba",
+        "bat",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "d7d54211-44",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ભ",
+        "bha",
+        "abhor",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "8d0bd75e-46",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઙ",
+        "ṅa",
+        "bank, sing, velar nasal version",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "830c9eb4-fd",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ઞ",
+        "ña",
+        "canyon, palatal nasal version",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "b3114fbf-59",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ણ",
+        "ṇa",
+        "somewhat like burner, retroflex nasal version",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "7e2cd2ad-42",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ન",
+        "na",
+        "not, no",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "5c3ef8c9-78",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "મ",
+        "ma",
+        "much, me",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "65781d4b-57",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "શ",
+        "śa",
+        "sheep",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "a6f6f7ed-65",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ષ",
+        "ṣa",
+        "somewhat like worship",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "3a6d0d88-d1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "સ",
+        "sa",
+        "sat, sue",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "0e6bc24a-00",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ર",
+        "ra",
+        "butter (American English)",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "b80f0cdc-29",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "લ",
+        "la",
+        "leaf",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "7c4aac30-56",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ળ",
+        "ḷa",
+        "somewhat like Merlin, retroflex lateral version",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "752a473b-26",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ય",
+        "ya",
+        "yak, palatal semi-vowel",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "46dc28a8-7f",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "વ",
+        "va",
+        "vine but somewhere between 'v' and 'w'ḷ labial semi-vowel",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "c1d666d8-c1",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "હ",
+        "ha",
+        "ahead",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "d3b76b85-d9",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "ક્ષ",
+        "kṣa",
+        "ksa",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "29599e1b-15",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "જ્ઞ",
+        "jña",
+        "gña",
+        "",
+        ""
+      ],
+      "flags": 0,
+      "guid": "d892a5b3-18",
+      "newlyAdded": false,
+      "note_model_uuid": "fee9a048-5673-11ea-bf49-dca9047b7182",
+      "tags": []
+    }
+  ]
+}
